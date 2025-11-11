@@ -46,7 +46,7 @@ key_value = result["key_name"]
     - Appropriate **IAM Role assignments** to be provided to the Key Vault, wherein VM's Managed Identity is to be given the `key-vault-secrets-user` role, so that it has the read access for the contents of the secrets.
     - `azure-identity` Python package installed for `DefaultAzureCredential` support.
     - give it some time (~2-3mins) to propagate these permissions.
-    - [[Resource](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-python?tabs=azure-cli)]
+    - [[Follow this link for step-by-step configuration details](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-python?tabs=azure-cli)]
 
 - For AWS:
     - AWS environment or EC2 Instance(VM) configured for AWS authentication.
